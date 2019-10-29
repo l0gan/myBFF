@@ -71,7 +71,7 @@ class SiteScopeBrute:
                     print("[!] Time to do something cool!")
                     self.somethingCool(username, password, payload, url, cookies)
             else:
-                print "[-] An error has occurred..."
+                print("[-] An error has occurred...")
 
     def main(self, url, username, password, proxies, user_file, pass_file, delay):
         # Setup looping of username file and password files here
