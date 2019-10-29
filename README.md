@@ -73,13 +73,9 @@ Point the framework at a file containing usernames, a host, and give it a passwo
 New modules will be added.
 
 ## CONFIGURATION
-myBFF requires lxml and pysmb. 
-
-Install using 
-
-'sudo apt-get install python-lxml'
-
-'sudo pip install pysmb'
+```
+pip install -r requirements.txt 
+```
 
 ## USE:
 ```
